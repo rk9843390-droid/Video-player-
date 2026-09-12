@@ -1,0 +1,6 @@
+{
+  "name": "VLC Video Player",
+  "description": "Powerful media and video player inspired by VLC with gesture controls, network streaming, playback speed, aspect ratio modes, and media library.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

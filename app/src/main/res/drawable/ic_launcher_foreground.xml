@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Base shadow -->
+    <path
+        android:fillColor="#55000000"
+        android:pathData="M30,83 C30,79 78,79 78,83 C78,87 30,87 30,83 Z" />
+
+    <!-- Traffic Cone Base Plate -->
+    <path
+        android:pathData="M27,78 C27,75.5 81,75.5 81,78 L78,83 C78,85 30,85 30,83 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="75"
+                android:endX="81"
+                android:endY="85"
+                android:type="linear">
+                <item android:color="#FF7A00" android:offset="0.0" />
+                <item android:color="#E65100" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cone Body Bottom Section (Orange) -->
+    <path
+        android:pathData="M34,76 L39,63 L69,63 L74,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="63"
+                android:endX="74"
+                android:endY="76"
+                android:type="linear">
+                <item android:color="#FF9500" android:offset="0.0" />
+                <item android:color="#E65100" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lower White Stripe -->
+    <path
+        android:fillColor="#F0F4F8"
+        android:pathData="M39.5,63 L43,53 L65,53 L68.5,63 Z" />
+
+    <!-- Middle Cone Section (Orange) -->
+    <path
+        android:pathData="M43.5,53 L46.5,43 L61.5,43 L64.5,53 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="43.5"
+                android:startY="43"
+                android:endX="64.5"
+                android:endY="53"
+                android:type="linear">
+                <item android:color="#FFA000" android:offset="0.0" />
+                <item android:color="#F57C00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Upper White Stripe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,43 L49.5,35 L58.5,35 L61,43 Z" />
+
+    <!-- Top Cap (Orange rounded) -->
+    <path
+        android:pathData="M49.8,35 C50.5,30 57.5,30 58.2,35 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="30"
+                android:endX="58"
+                android:endY="35"
+                android:type="linear">
+                <item android:color="#FFB300" android:offset="0.0" />
+                <item android:color="#FF8F00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Play Media Symbol (Subtle high-contrast white triangle with shadow) -->
+    <path
+        android:fillColor="#22000000"
+        android:pathData="M51,51 L61,57 L51,63 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,50 L60,56 L50,62 Z" />
+</vector>
